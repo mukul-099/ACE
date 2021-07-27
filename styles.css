@@ -1,0 +1,364 @@
+html{
+  scroll-behavior: smooth;
+  transition-duration: 2s;
+}
+
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+}
+
+h1, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+p{
+  color:#000000;
+  font-weight:bold;
+}
+
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fea82f;
+  padding-bottom: 8px;
+  padding-top: 20px;
+
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container Section */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1rem 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+#title {
+  color: #ffffff;
+  text-align: left;
+  background-color: #cccccc;
+  background-image: url('h.jpg');
+  background-size: 100% 100%;
+}
+
+
+#title .container-fluid {
+  padding: 0 10% 4%;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+
+.intro-title{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fea82f;
+  padding-bottom: 8px;
+}
+
+hr{
+  border: dotted #FC5404 6px;
+  width: 5%;
+  border-bottom: none;
+  margin: 50px auto 0 auto;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.intro{
+  width: 60%;
+  margin:50px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.civil-img{
+  height:200px;
+  width:200px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+/* Faculty Section*/
+
+#faculty{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  background-image: url('f.jpg');
+  background-size: 100% 100%;
+}
+
+.faculty-name{
+  font-size: 1.5rem;
+  color:#f2f2f2;
+}
+
+.faculty-content{
+    color:#f2f2f2;
+}
+
+.faculty-box{
+  padding: 4.5%;
+  padding-bottom: 1.5rem;
+}
+
+.faculty-img{
+  width: 160px;
+  height: 160px;
+  margin-bottom:20px;
+}
+
+.f-mem{
+  width:60%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin:50px auto 0 auto;
+  text-align: left;
+}
+
+/* Events */
+
+#events{
+  width: 60%;
+  margin:50px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.cards{
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.cad{
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.cricket{
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+
+.event-img{
+  width:25%;
+  float: left;
+  height: 190px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.cad-img{
+  width:35%;
+  height: 190px;
+  float: right;
+  margin-bottom: 40px;
+}
+
+.idea-img{
+  width:35%;
+  height: 190px;
+  float: right;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.event-title{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fea82f;
+  padding-bottom: 8px;
+}
+
+.mag-up{
+  margin-bottom: 50px;
+}
+
+/* Magazines */
+
+#magazine{
+  padding:40px 100px 40px 100px;
+  text-align:center;
+  background-image: url('g.jpg');
+  background-size: 100% 100%;
+}
+
+.mag-txt{
+  color: #ffffff;
+}
+
+.magazine-column{
+  padding: 3% 2%;
+}
+
+.btn{
+  margin-top:3%;
+  font-weight: bolder;
+}
+
+.mag-name{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+  color:#fea82f;
+}
+
+.place-order{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+  color:#ffffff;
+}
+/* Gallary */
+
+#gallary {
+  margin-top:0;
+}
+
+.carousel-inner{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.g-head{
+  width:60%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fea82f;
+  margin:30px auto 0 auto;
+  text-align: left;
+}
+
+.gallary-image{
+  width: 30%;
+  height:30%;
+  margin-top: 40px;
+  padding-right: :20%;
+  margin-bottom: 10px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  width:30px;
+  height:30px;
+  background-color: #fea82f;
+  top: calc(50%-25px);
+  border-radius: 50%;
+  opacity:1;
+}
+
+/* Contact */
+
+.contact-us{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.con-txt{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+}
+
+.btn-txt{
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 40px;
+  color: #ffffff
+}
+
+.bottom-container{
+  position: relative;
+  margin-top:20px;
+  padding: 20px 0 20px 0;
+  background-color: #f9b208;
+  color:#ffffff;
+}
+
+.copyright{
+  color:#ffffff;
+  margin-top: 30px;
+
+}
+
+.social-icon{
+  margin: 0 10px 20px 10px;
+}
+
+@media(max-width:1028px){
+  #title{
+    text-align:center;
+  }
+
+  .civil-img{
+    height:200px;
+    width:150px;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .title-img{
+    position:static;
+    height:200px;
+    width:200px;
+  }
+
+  .faculty-img{
+    width: 80px;
+    height: 100px;
+  }
+
+  .faculty-content{
+    color:#f2f2f2;
+    margin-left: 20%;
+    margin-right:20%;
+  }
+
+}
